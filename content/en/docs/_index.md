@@ -1,6 +1,6 @@
 ---
-title: "ModernApps by VMware Tanzu Learning Guide Template"
-linkTitle: "ModernApps Learning Guide Template"
+title: "Making Updates from your Workstation with VSCode"
+linkTitle: "Editing with VSCode"
 weight: 20
 menu:
   main:
