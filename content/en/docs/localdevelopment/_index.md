@@ -68,7 +68,7 @@ Here is a review of the high-level process:
 - Step 3: Connect the local copy of your fork to the upstream source
   - When you download (clone) a copy of your fork from GitHub and do commands like `git pull` or `git push`, it is set to pull and push updates to and from your fork on GitHub. The source repository that your fork is copied from is known as the "upstream" repository and you will need to specify the upstream repository to fetch or pull updates to keep your local copy in sync.
 - Step 4: Create a branch to hold your proposed changes
-  - Creating a branch keeps the changes you make seperate from other files in the repository, which enables a reviewer to see exactly the changes you are proposing when they review your request. If approved the branch will be merged and the changes you proposed will be made, at which point the branch can be deleted. 
+  - Creating a branch keeps the changes you make seperate from other files in the repository, which enables a reviewer to see exactly the changes you are proposing when they review your request. If the changes you submit are approved, your branch will be merged into the upstream branch and the changes you proposed will be live, at which point the branch can be deleted. 
 - Step 5: Make and commit any changes needed
   - You should always make smaller changes and submit your updates to GitHub frequently, which helps to prevent merge conflicts that occur when different people make updates without having the latest version of the file. 
 - Step 6: Push the new branch you created for your updates to your forked repo on GitHub.
