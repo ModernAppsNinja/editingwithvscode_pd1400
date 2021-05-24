@@ -62,11 +62,11 @@ Here is a review of the high-level process:
 {{< exclose >}}
 
 - Step 1: Fork your own copy of the repository you want to modify
-  - A fork is a copy of a repository hosted on your own github account, where you can make and store edits that you can then submit to the source repository
+  - A fork is a special copy of a repository hosted on your own github account, where you can make and store edits that you can then submit to the source (upstream) repository
 - Step 2: Download a copy of your fork
-  - Working with a fork is much like working with any other GitHub repository, and you can clone it in the same manner you would any other repository
+  - Working with a fork is much like working with any other GitHub repository, and you can clone (download) it in the same manner you would any other repository
 - Step 3: Connect the local copy of your fork to the upstream source
-  - When you download (clone) a copy of your fork from GitHub and do commands like `git pull` or `git push`, it is set to pull and push updates to and from your fork on GitHub. The source repository that your fork is copied from is known as the "upstream" repository and you will need to update the local git configuration with the upstream repository url to keep your local copy in sync. 
+  - When you download (clone) a copy of your fork from GitHub and do commands like `git pull` or `git push`, it is set to pull and push updates to and from your fork on GitHub. The source repository that your fork is copied from is known as the "upstream" repository and you will need to specify the upstream repository to fetch or pull updates to keep your local copy in sync.
 - Step 4: Create a branch to hold your proposed changes
   - Creating a branch makes a copy of the changes you are proposing to the repository, which enables a reviewer to see exactly the changes you are proposing when they review your request. If approved the branch will be merged and the changes you proposed will be made, at which point the branch can be deleted as in this use case, the branch is only used to story a copy of a proposed change until it is approved or rejected. 
 - Step 5: Make and commit any changes needed
